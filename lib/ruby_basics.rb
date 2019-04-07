@@ -17,13 +17,13 @@ end
 
 def return_a_value(phrase = "Nice")
   phrase
-
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(value = "expert")
+  value
 end
 
-def pizza_party
+def pizza_party(topping = "cheese")
+  puts "#{topping}"
 
 end
